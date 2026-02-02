@@ -1,0 +1,82 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest and caches
+.pytest_cache/
+.cache
+
+# Type checkers
+.mypy_cache/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Conda / environment files and installers
+environment.yml
+env.yml
+Miniconda3-latest-Linux-x86_64.sh
+
+# Sensitive files
+.env.local
+.env
+secrets.json
+
+# Logs
+*.log
+
+# Database / data files
+*.sqlite3
+database/*.json
+data/
+*.csv
+
+# SSH keys (should not be in repo)
+id_rsa*
+id_ed25519*
+
+# Compiled files
+*.pyc
+
+# Misc
+coverage.xml
+.coverage
+htmlcov/
+
+# Built distributions
+*.egg
+*.whl
+
+# Node / other
+node_modules/
+
+# Ignore editor swap files
+*~
+*.swp
+
+# End of file

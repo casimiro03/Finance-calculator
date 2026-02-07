@@ -80,3 +80,28 @@ node_modules/
 *.swp
 
 # End of file
+
+.vscode/
+
+#
+
+# Entornos virtuales (Se ven en la raíz y en mendicant_lyla_crew)
+.venv/
+venv/
+env/
+
+# Archivos de configuración de Agentes y Tareas (YAML)
+# Ignora tanto la carpeta /ignore como la de /config
+ignore/research_agents.yaml
+ignore/research_tasks.yaml
+src/mendicant_lyla_crew/config/agents.yaml
+src/mendicant_lyla_crew/config/tasks.yaml
+
+# Variables de entorno (¡Muy importante para tu API Key!)
+.env
+
+# Caché de Python
+__pycache__/
+
+# Configuración de VS Code
+.vscode/
